@@ -1,0 +1,25 @@
+{
+  "name": "mnsay",
+  "version": "1.0.0",
+  "description": "mnsay,码农,说道",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [
+    "mnsay"
+  ],
+  "author": "mosby",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.5.2"
+  },
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.2",
+    "@vuepress/plugin-blog": "^1.9.2",
+    "axios": "^0.19.2",
+    "is-mobile": "^2.2.2",
+    "jquery": "^3.5.1"
+  }
+}
