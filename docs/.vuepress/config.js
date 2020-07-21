@@ -4,26 +4,7 @@ module.exports = {
     title: '码农说道',
     description: '码农说道(mnsay)',
     plugins: [
-        '@vuepress/back-to-top',
-        [
-            '@vuepress/blog',
-            {
-                frontmatters: [
-                    {
-                        // Unique ID of current classification
-                        id: 'tag',
-                        // Decide that the frontmatter keys will be grouped under this classification
-                        keys: ['tags'],
-                        // Path of the `entry page` (or `list page`)
-                        path: '/tag/',
-                        // Layout of the `entry page`
-                        layout: 'Tag',
-                        // Layout of the `scope page`
-                        scopeLayout: 'TagPage'
-                    },
-                ],
-            },
-        ]
+        '@vuepress/back-to-top'
     ],
     configureWebpack: {
         //webpack配置

@@ -179,7 +179,7 @@
         text-align center
         cursor pointer
         position fixed
-        right 2.4rem
+        right 1.4rem
         bottom 1rem
     }
     @media (max-width: $MQMobile) {

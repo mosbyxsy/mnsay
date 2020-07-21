@@ -52,7 +52,7 @@
         width: 2.2rem
         border-radius: 50%
         text-align: center
-        right: 2.4rem
+        right: 1.4rem
         bottom: 3.6rem
     }
     .live2d-visible, .live2d-show {
