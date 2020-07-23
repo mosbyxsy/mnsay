@@ -1,3 +1,13 @@
-# 关于
+---
+title: 关于
+---
 
-这是关于文件
+`nihasafa`
+
+nihao
+
+*dfghdgh*
+
+<!-- more -->
+
+是否多喝水多喝水

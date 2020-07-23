@@ -46,7 +46,6 @@
         },
         mounted () {
             this.isMobile = isMobile();
-            console.log(this.$site.pages.map(item => item.title))
         }
     }
 </script>
