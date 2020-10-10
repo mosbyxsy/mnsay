@@ -17,9 +17,7 @@
   },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.2",
-    "@vuepress/plugin-blog": "^1.9.2",
     "axios": "^0.19.2",
-    "is-mobile": "^2.2.2",
-    "jquery": "^3.5.1"
+    "is-mobile": "^2.2.2"
   }
 }

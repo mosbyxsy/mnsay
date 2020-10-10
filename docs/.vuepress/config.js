@@ -3,9 +3,6 @@ const createSidebar = require('./lib/createSidebar');
 module.exports = {
     title: '码农说道',
     description: '码农说道(mnsay)',
-    plugins: [
-        '@vuepress/back-to-top'
-    ],
     configureWebpack: {
         //webpack配置
     },
@@ -14,6 +11,7 @@ module.exports = {
         lineNumbers: true //显示行号
     },
     // theme: '@vuepress/theme-default', //主题
+    theme: 'vuepress-theme-mnsay', //主题
     themeConfig: {
         nav: [ //导航栏
             { text: '首页', link: '/' },
